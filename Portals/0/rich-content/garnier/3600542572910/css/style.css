@@ -104,45 +104,10 @@ body {
   text-decoration: line-through;
 }
 
-#es-garnier.es-garnier .es-kv__accent {
-  margin: 0;
-  padding: 0;
-  color: #e75e1c;
-  font-size: 40px;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-#es-garnier.es-garnier .es-kv__accent2 {
-  margin: 0;
-  padding: 0;
-  color: #e75e1c;
-  text-transform: uppercase;
-}
-
-#es-garnier.es-garnier .es-kv__accent2 span {
-  font-weight: 600;
-  font-size: 22px;
-}
-
 #es-garnier.es-garnier .es-kv__details {
   margin: 0;
   padding: 0;
   position: relative;
-}
-
-#es-garnier.es-garnier .es-kv__accent2::before,
-#es-garnier.es-garnier .es-kv__accent2::after {
-  content: url(../img/square\ bracket\ open.png);
-  color: #e75e1c;
-  position: absolute;
-  top: 35%;
-  left: 0;
-}
-
-#es-garnier.es-garnier .es-kv__accent2::after {
-  content: url(../img/square\ bracket\ close.png);
-  right: -200px;
 }
 
 @media screen and (min-width: 425px) {
@@ -489,49 +454,6 @@ body {
     line-height: 1.2em;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
-  }
-
-  #es-garnier.es-garnier .es-benefits__texts--1::before {
-    content: url('../img/border-line-1.png');
-    position: absolute;
-    top: 45px;
-    left: 298px;
-  }
-
-  #es-garnier.es-garnier .es-benefits__texts--2 {
-    top: 50px;
-    left: 66%;
-    padding-right: 16px;
-  }
-  /* linia odnośnika do obrazka jest wstawiona jako ::before dla każdego elementu z osobna*/
-  #es-garnier.es-garnier .es-benefits__texts--2::before {
-    content: url('../img/border-line-2.png');
-    position: absolute;
-    top: 46px;
-    left: -154px;
-  }
-  #es-garnier.es-garnier .es-benefits__texts--3 {
-    bottom: 235px;
-    right: 68%;
-    padding-left: 16px;
-  }
-  #es-garnier.es-garnier .es-benefits__texts--3::before {
-    content: url('../img/border-line-3.png');
-    position: absolute;
-    top: 6px;
-    right: -190px;
-  }
-  #es-garnier.es-garnier .es-benefits__texts--4 {
-    bottom: 10px;
-    left: 58%;
-    padding-left: 16px;
-  }
-
-  #es-garnier.es-garnier .es-benefits__texts--4::before {
-    content: url('../img/border-line-4.png');
-    position: absolute;
-    top: -119px;
-    left: -45px;
   }
 
   #es-garnier.es-garnier .es-benefits__name {
@@ -1082,6 +1004,7 @@ body {
 
 #es-garnier.es-garnier .es-cross__slider {
   padding-top: 32px;
+  height: max-content;
 }
 
 #es-garnier.es-garnier .es-cross__wrapper {
